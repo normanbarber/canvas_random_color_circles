@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* ================ $reset ===================== */
+/* ================ $body ==================== */
+/* ================ $canvas =============== */
+
+/* ===========================================
+=================== $reset ===================
+============================================== */
+pre,code{
+	font-family:"Times New Roman", Times, serif;
+	white-space:pre;
+	padding:20px;
+	letter-spacing: 0.1em;
+}
+pre{
+	padding:5px;
+}
+code{
+	-moz-border-radius: 2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	background:#252525;
+	font-size:11px;
+	color: #999999;
+	padding: 3px;
+	padding-left: 10px;
+}
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 100%;
+}
+.clear {clear: both;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite,  del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tfoot, thead, tr, th, td {	margin:0px; 
+	padding:0px; 
+	border:0px; 
+	border-collapse:separate; 
+	border-spacing:0px;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	text-decoration:none;
+}
+/* ===========================================
+=================== $body ===================
+============================================== */
+html, body {
+	height: 100%;
+	width: 100%;
+}
+::-moz-selection{ color: #fff; background: #707070; }
+::selection { color: #fff; background: #707070; }
+body{
+	font-family: Arial, sans-serif;
+	font-weight:normal;
+	font-size: 18px;
+	line-height: 2em;	
+	word-spacing: 5px;
+	background-color:#000000;
+	color: #ffffff;	
+ 	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+/* ===========================================
+=================== $canvas ===================
+============================================== */
+canvas{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:-1;
+}
+#randomcolors
+{
+	float: left;
+	width: 1920px;
+	height: 1000px;
+	background-image: url(../images/background-lights.jpg);
+	color:#ffffff;
+}
+#randomcolors.active
+{
+	background: none;
+}
+.canvastext{
+	padding-top:35px;
+	font-size: 14px;
+}
+
